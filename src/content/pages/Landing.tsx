@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Pen, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const features = [
@@ -89,15 +88,6 @@ export default function WritingBuddyLanding() {
           </motion.div>
         </div>
       </main>
-
-      <footer className="w-full py-4 px-6 bg-white shadow-sm mt-auto">
-        <div
-          style={{ color: "var(--color-text-secondary)" }}
-          className="text-center text-sm"
-        >
-          © {new Date().getFullYear()} Writing Buddy. All rights reserved.
-        </div>
-      </footer>
     </div>
   );
 }

@@ -1,0 +1,92 @@
+export const plans = [
+{
+    title: "Free",
+    subtitle: "Write without spelling and grammar mistakes.",
+    price: "$0",
+    features: [
+    "Write without mistakes",
+    "See your writing tone",
+    "Generate text with 100 AI prompts",
+    ],
+    buttonText: "Current plan",
+    buttonDisabled: true,
+},
+{
+    title: "Student",
+    subtitle: "Ace your assignments with clear and confident writing.",
+    originalPrice: "$20",
+    discountedPrice: "$0",
+    trialMessage: "Try for free",
+    trialNote: "We'll remind you by email 2 days before your trial ends.",
+    buttonText: "Start 7-Day Trial",
+    highlight: "Best for school",
+    features: [
+    "Rewrite full sentences with a click",
+    "Detect plagiarism and AI-generated text",
+    "Instant citations in APA, MLA, Chicago",
+    "Unlimited personalized suggestions",
+    "Write fluently in English",
+    "Generate text with 2,000 AI prompts",
+    ],
+},
+{
+    title: "Pro",
+    subtitle: "Drive results across your entire organization with trusted AI.",
+    originalPrice: "$30",
+    discountedPrice: "$20",
+    trialMessage: "Try for free",
+    trialNote: "We'll remind you by email 2 days before your trial ends.",
+    buttonText: "Upgrade to Pro",
+    features: [
+    "Dedicated support",
+    "BYOK encryption",
+    "Custom roles and permissions",
+    "Data loss prevention",
+    "Cost center visibility",
+    "Generate text with unlimited AI prompts",
+    ],
+},
+];
+
+export const comparisonFeatures = [
+{ name: "Write without mistakes", free: true, student: true, pro: true },
+{ name: "See your writing tone", free: true, student: true, pro: true },
+{
+    name: "Adjust your writing tone",
+    free: false,
+    student: true,
+    pro: true,
+},
+{ name: "Rewrite full sentences", free: false, student: true, pro: true },
+{
+    name: "Write fluently in English",
+    free: false,
+    student: true,
+    pro: true,
+},
+{ name: "Use inclusive language", free: false, student: true, pro: true },
+{
+    name: "Keep your citations consistent",
+    free: false,
+    student: true,
+    pro: true,
+},
+{
+    name: "Catch accidental plagiarism",
+    free: false,
+    student: true,
+    pro: true,
+},
+{
+    name: "Generate text with AI prompts",
+    free: "100 prompts/month",
+    student: "2,000 prompts/member/month",
+    pro: "Unlimited",
+},
+{
+    name: "Complete workflows from Grammarly",
+    free: "Limited",
+    student: "Full",
+    pro: "Full",
+},
+];
